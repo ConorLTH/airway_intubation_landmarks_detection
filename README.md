@@ -14,15 +14,16 @@ And then to install pytorch:
 ```
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
 ```
+Please ensure your device can support cuda. MMdetection is built based on the Pytorch and CUDA. Its cpu-only version may introduce errors.
 
-To install MMdetection:
+  To install MMdetection:
 ```
 pip install mim
 pip install mmengine
 pip install mmcv-full=1.7
 ```
-MMdetection run training and testing of models with config files.
-In this repository, the config files used in experiment of this work are also provided.
+  MMdetection run training and testing of models with config files.
+  In this repository, the config files used in experiment of this work are also provided.
 
 ### To train the model:
 Single GPU: 
@@ -33,14 +34,14 @@ Multiple GPU:
 ```
 bash tools/dist_train.sh [config_file]  [NUM_GPU]
 ```
-The [config_file] means the path to the config file.
-The [NUM_GPU] means the number of GPU to be used for training.
-To get more details, please refer to the official documents of MMdetection.
+  The [config_file] means the path to the config file.
+  The [NUM_GPU] means the number of GPU to be used for training.
+  To get more details, please refer to the official documents of MMdetection.
 
 ## Test
 To test model:
 ```
 python tools/test.py [config_file] [checkpoint]
 ```
-The [config_file] the config file also used in training.
-The [checkpoint] is the pth file stored training information.
+  The [config_file] the config file also used in training.
+  The [checkpoint] is the pth file storing the training information. 
