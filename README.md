@@ -2,11 +2,13 @@
   This is the code release for the Airway Intubation Landmarks Detection.
 
 ## Train 
-  To run the training of the model created in the work, please follow the below process:
+To run the training of the model created in the work, please follow the below process:
 
-  Firstly, the anaconda is required:
-  conda create -n samdef python=3.9
-  conda activate samdef
+Firstly, the anaconda is required:
+```
+conda create -n samdef python=3.9
+conda activate samdef
+```
 
   And then to install pytorch:
   conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
