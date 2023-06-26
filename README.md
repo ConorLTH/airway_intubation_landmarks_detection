@@ -14,7 +14,7 @@ And then to install pytorch:
 ```
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
 ```
-Please ensure your device can support cuda. MMdetection is built based on the Pytorch and CUDA. Its cpu-only version may introduce errors.
+Please ensure your device can support cuda. The cpu version of MMdetection may introduce errors.
 
   To install MMdetection:
 ```
@@ -22,6 +22,7 @@ pip install mim
 pip install mmengine
 pip install mmcv-full=1.7
 ```
+  In our experiments, we run the previous version of mmcv-full to build models. The newer version of mmdetection has made a great change of mmcv which may also introduce errors.
   MMdetection run training and testing of models with config files.
   In this repository, the config files used in experiment of this work are also provided.
 
@@ -38,7 +39,7 @@ bash tools/dist_train.sh [config_file]  [NUM_GPU]
   The [NUM_GPU] means the number of GPU to be used for training.
   To get more details, please refer to the official documents of MMdetection.
 
-## Test
+### To test the model:
 To test model:
 ```
 python tools/test.py [config_file] [checkpoint]
