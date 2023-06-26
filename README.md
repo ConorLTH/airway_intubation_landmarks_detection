@@ -1,7 +1,7 @@
 # airway_intubation_landmarks_detection
   This is the code release for the Airway Intubation Landmarks Detection.
 
-  ##Train
+## Train 
   To run the training of the model created in the work, please follow the below process:
 
   Firstly, the anaconda is required:
@@ -25,7 +25,7 @@
   The [NUM_GPU] means the number of GPU to be used for training.
   To get more details, please refer to the official documents of MMdetection.
 
-  ##Test
+## Test
   To test model:
   python tools/test.py [config_file] [checkpoint]
   The [config_file] the config file also used in training.
