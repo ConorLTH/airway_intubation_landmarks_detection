@@ -1,8 +1,5 @@
 # airway_intubation_landmarks_detection
   This is the code release for the Airway Intubation Landmarks Detection.
-  
-  The repository is still under working
-
 ## Train 
 To run the training of the model created in the work, please follow the below process:
 
@@ -48,3 +45,9 @@ python tools/test.py [config_file] [checkpoint]
 ```
   The [config_file] the config file also used in training.
   The [checkpoint] is the pth file storing the training information. 
+
+### Datasets
+#### Nostril
+The nostril dataset was created based on the public BioID dataset. The original BioID dataset provides 21 keypoints on the human face for face recognition. In this work, we followed the MSCOCO format and labeled nostril locations as one of the chosen landmarks according to the original BioID annotations. To get more information about BioID Dataset, please refer to the website [BioID](https://www.bioid.com/facedb/)
+#### Glottis
+The glottis is the other one landmark we chose for airway intubation detection. Recently, BAGLS dataset collected images of glottis from several  provided semantic annotations of glottis 
