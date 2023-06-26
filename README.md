@@ -46,12 +46,12 @@ python tools/test.py [config_file] [checkpoint]
   The [config_file] the config file also used in training.
   The [checkpoint] is the pth file storing the training information. 
 
-### Datasets
-#### Nostril
+## Datasets
+### Nostril
 The nostril dataset was created based on the public BioID dataset. The original BioID dataset provides 21 keypoints on the human face for face recognition. In this work, we followed the MSCOCO format and labeled nostril locations as one of the chosen landmarks according to the original BioID annotations. To get more information about BioID Dataset, please refer to the website [BioID](https://www.bioid.com/facedb/)
-#### Glottis
+### Glottis
 The glottis is the other one landmark we chose for airway intubation detection. BAGLS dataset is the first large-scale, publicly available dataset of endoscopic high-speed video with frame-wise segmentation annotations. Similarly, we recreate annotations to denote glottis' locations with bounding boxes and annotated following the MSCOCO format. To get more information about BAGLS Dataset, please refer to the website [BAGLS](https://www.bagls.org/) and corrresponding paper [BAGLS Publication](https://www.nature.com/articles/s41597-020-0526-3).
-#### To get ours dataset
+### To get ours dataset
 You can download our datasets through Google Drive with the below links.
 | Dataset | Download Link |
 | ------------- | ----------- |
