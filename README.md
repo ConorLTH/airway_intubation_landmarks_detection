@@ -52,4 +52,8 @@ The nostril dataset was created based on the public BioID dataset. The original 
 ### Glottis
 The glottis is the other one landmark we chose for airway intubation detection. BAGLS dataset is the first large-scale, publicly available dataset of endoscopic high-speed video with frame-wise segmentation annotations. Similarly, we recreate annotations to denote glottis' locations with bounding boxes and annotated following the MSCOCO format. To get more information about BAGLS Dataset and download images, please refer to the website [BAGLS](https://www.bagls.org/) and corrresponding paper [BAGLS Publication](https://www.nature.com/articles/s41597-020-0526-3). In our glottis bounding box annotations, we only use the images that are explicitly collected from the nasal endoscopic videos. We didn't change file names and followed the split of the original BAGLS.
 ### To get ours dataset
-
+You can download our labels through the below google drive links.
+|#|Dataset|Download Link|
+|---|----|-----|
+|1|Glottis|[Glottis](https://drive.google.com/file/d/1aYC916aRIBV2GChRXzx3osygcfc-zH-o/view?usp=sharing)|
+|2|Nostril|[Nostril](https://drive.google.com/file/d/1nzgiS9fRH2rimJnuindt3sYYDMXy03LW/view?usp=sharing)|
