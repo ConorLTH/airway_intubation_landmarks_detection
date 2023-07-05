@@ -56,4 +56,4 @@ You can download our labels through the below google drive links.
 |#|Dataset|Download Link|
 |---|----|-----|
 |1|Glottis|[Glottis](https://drive.google.com/file/d/1aYC916aRIBV2GChRXzx3osygcfc-zH-o/view?usp=sharing)|
-|2|Nostril|[Nostril](https://drive.google.com/file/d/1nzgiS9fRH2rimJnuindt3sYYDMXy03LW/view?usp=sharing)|
+|2|Nostril|[Nostril](https://drive.google.com/file/d/12crq372XZp8a_xt60EbmTT65UGZr3Fum/view?usp=sharing)|
