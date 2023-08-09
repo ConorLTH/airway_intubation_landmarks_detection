@@ -83,8 +83,8 @@ python tools/test.py [config_file] [checkpoint]
 The nostril dataset was created based on the public BioID dataset. The original BioID dataset provides 21 keypoints on the human face for face recognition. In this work, we followed the MSCOCO format and labeled nostril locations as one of the chosen landmarks according to the original BioID annotations. To get more information about BioID Dataset, please refer to the website [BioID](https://www.bioid.com/facedb/). You can download the bounding box annotations with the provided link below and download the corresponding picture files from the BioID official website. The picture files are further transferred into png files in our experiments. 
 ### Glottis
 The glottis is the other one landmark we chose for airway intubation detection. BAGLS dataset is the first large-scale, publicly available dataset of endoscopic high-speed video with frame-wise segmentation annotations. Similarly, we recreate annotations to denote glottis' locations with bounding boxes and annotated following the MSCOCO format. To get more information about BAGLS Dataset and download images, please refer to the website [BAGLS](https://www.bagls.org/) and corrresponding paper [BAGLS Publication](https://www.nature.com/articles/s41597-020-0526-3). In our glottis bounding box annotations, we only use the images that are explicitly collected from the nasal endoscopic videos. We didn't change file names and followed the split of the original BAGLS.
-### To get ours dataset
-You can download our labels through the below google drive links.
+### To get our annotations
+You can download our annotations through the below Google Drive links.
 |#|Dataset|Download Link|
 |---|----|-----|
 |1|Glottis|[Glottis](https://drive.google.com/file/d/1aYC916aRIBV2GChRXzx3osygcfc-zH-o/view?usp=sharing)|
