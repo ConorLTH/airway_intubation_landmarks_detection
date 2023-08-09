@@ -1,5 +1,37 @@
-# airway_intubation_landmarks_detection
-  This is the code release for the Airway Intubation Landmarks Detection.
+
+
+<div align="center">
+
+<samp>
+
+<h2> Landmark Detection using Transformer Toward Robot-assisted Nasal Airway Intubation </h1>
+
+<h4> Tianhang Liu, Hechen Li, Long Bai, Yanan Wu, An Wang, Mobarakol Islam, Hongliang Ren </h3>
+
+</samp>   
+
+</div>     
+
+---
+
+If you find our code or paper useful, please cite as
+
+```bibtex
+@article{liu2023landmark,
+  title={Landmark Detection using Transformer Toward Robot-assisted Nasal Airway Intubation},
+  author={Liu, Tianhang and Li, Hechen and Bai, Long and Wu, Yanan and Wang, An and Islam, Mobarakol and Ren, Hongliang},
+  journal={arXiv preprint arXiv:2308.02845},
+  year={2023}
+}
+```
+
+---
+## Abstract
+
+Robot-assisted airway intubation application needs high accuracy in locating targets and organs. Two vital landmarks, nostrils and glottis, can be detected during the intubation to accommodate the stages of nasal intubation. Automated landmark detection can provide accurate localization and quantitative evaluation. The Detection Transformer (DeTR) leads object detectors to a new paradigm with long-range dependence. However, current DeTR requires long iterations to converge, and does not perform well in detecting small objects. This paper proposes a transformer-based landmark detection solution with deformable DeTR and the semantic-aligned-matching module for detecting landmarks in robot-assisted intubation. The semantics aligner can effectively align the semantics of object queries and image features in the same embedding space using the most discriminative features. To evaluate the performance of our solution, we utilize a publicly accessible glottis dataset and automatically annotate a nostril detection dataset. The experimental results demonstrate our competitive performance in detection accuracy.
+
+
+---
 ## Train 
 To run the training of the model created in the work, please follow the below process:
 
